@@ -1,5 +1,11 @@
 {
   "name": "svelte-icomoon",
+  "description": "It makes it very simple to use SVG icons in your Svelte projects.",
+  "version": "0.4.3",
+  "files": [
+    "src",
+    "dist"
+  ],
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -7,6 +13,15 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aykutkardas/svelte-icomoon.git"
+  },
+  "author": {
+    "name": "Aykut Kardaş",
+    "email": "aykutkrds@gmail.com"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^9.0.0",
     "rollup": "^2.0.0",
@@ -14,11 +29,10 @@
     "svelte": "3.39"
   },
   "keywords": [
-    "svelte"
+    "Svelte",
+    "SVG",
+    "Icon",
+    "IcoMoon"
   ],
-  "files": [
-    "src",
-    "dist"
-  ],
-  "version": "0.4.3"
+
 }

@@ -1,4 +1,4 @@
-![Svelte-Icomoon Logo](/banner.png)
+![Svelte-Icomoon Logo](./banner.png)
 
 [![npm](https://img.shields.io/npm/v/svelte-icomoon?color=%234fc921)](https://www.npmjs.com/package/svelte-icomoon)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?color=%234fc921)](https://opensource.org/licenses/MIT)
