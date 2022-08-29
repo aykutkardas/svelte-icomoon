@@ -30,7 +30,7 @@ You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by down
   import iconSet from "./selection.json";
 </script>
 
-<Icomoon iconSet="{iconSet}" {...$$props} />
+<Icomoon iconSet={iconSet} {...$$props} />
 ```
 
 ### Use
@@ -40,7 +40,7 @@ You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by down
   import Icon from "./Icon.svelte";
 </script>
 
-<Icon name="pencil" size="{30}" color="blue" />
+<Icon name="pencil" size={30} color="blue" />
 ```
 
 ## Props List
