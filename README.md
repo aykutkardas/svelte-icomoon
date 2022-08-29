@@ -5,6 +5,8 @@
 
 It makes it very simple to use SVG icons in your `Svelte` projects.
 
+## [Demo](https://codesandbox.io/s/svelte-icomoon-demo-7ohyqm)
+
 ## Install
 
 ```
