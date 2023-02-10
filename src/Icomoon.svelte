@@ -47,7 +47,7 @@
 	
 </script>
 
-<svg viewBox={viewBox} style={toInlineStyle(_style)}>
+<svg viewBox={viewBox} style={toInlineStyle(_style)} {...$$props}>
 	{#each paths as path}
 		<path d={path.d} />
 	{/each}
