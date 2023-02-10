@@ -5,7 +5,7 @@
 
 It makes it very simple to use SVG icons in your `Svelte` projects.
 
-## [Demo](https://codesandbox.io/s/svelte-icomoon-demo-7ohyqm)
+## [demo](https://codesandbox.io/s/svelte-icomoon-demo-7ohyqm) - [svgps.app](https://svgps.app?ref=svelte-icomoon)
 
 ## Install
 
@@ -19,9 +19,9 @@ yarn add svelte-icomoon
 
 ## Usage
 
-You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by downloading the `selection.json` file.
+You can use [svgps.app](https://svgps.app/) to access over `40,000` free icons and convert your own icons into `selection.json`.
 
-> You can try [svgps.app](https://svgps.app/) to generate `selection.json` file. 🎉
+Or you can use [IcoMoon](https://icomoon.io/app/) to generate the `selection.json` file.
 
 ### Declare
 
@@ -32,7 +32,7 @@ You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by down
   import iconSet from "./selection.json";
 </script>
 
-<Icomoon iconSet={iconSet} {...$$props} />
+<Icomoon iconSet="{iconSet}" {...$$props} />
 ```
 
 ### Use
@@ -42,7 +42,7 @@ You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by down
   import Icon from "./Icon.svelte";
 </script>
 
-<Icon name="pencil" size={30} color="blue" />
+<Icon name="pencil" size="{30}" color="blue" />
 ```
 
 ## Props List
@@ -70,7 +70,6 @@ You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by down
 
 ### Related Links
 
-- [svgps.app](https://svgps.app)
-- [preact-icomoon](https://github.com/aykutkardas/react-icomoon)
 - [react-icomoon](https://github.com/aykutkardas/react-icomoon)
 - [vue-icomoon](https://github.com/aykutkardas/vue-icomoon)
+- [preact-icomoon](https://github.com/aykutkardas/react-icomoon)
