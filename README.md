@@ -5,6 +5,8 @@
 
 It makes it very simple to use SVG icons in your `Svelte` projects.
 
+## [Demo](https://codesandbox.io/s/svelte-icomoon-demo-7ohyqm)
+
 ## Install
 
 ```
@@ -27,20 +29,10 @@ You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by down
 // Icon.svelte
 <script>
   import Icomoon from "svelte-icomoon";
-
   import iconSet from "./selection.json";
-
-  export let name;
-  export let title;
-  export let color;
-  export let size = 16;
-  export let disableFill = false;
-  export let removeInitialStyle = false;
-  export const style = {};
-  const props = { name, title, color, size, disableFill, removeInitialStyle };
 </script>
 
-<Icomoon {...props} iconSet="{iconSet}" />
+<Icomoon iconSet={iconSet} {...$$props} />
 ```
 
 ### Use
@@ -50,7 +42,7 @@ You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by down
   import Icon from "./Icon.svelte";
 </script>
 
-<Icon name="pencil" size="{30}" color="blue" />
+<Icon name="pencil" size={30} color="blue" />
 ```
 
 ## Props List
@@ -79,5 +71,6 @@ You can use the icons you selected on [IcoMoon](https://icomoon.io/app/) by down
 ### Related Links
 
 - [svgps.app](https://svgps.app)
+- [preact-icomoon](https://github.com/aykutkardas/react-icomoon)
 - [react-icomoon](https://github.com/aykutkardas/react-icomoon)
 - [vue-icomoon](https://github.com/aykutkardas/vue-icomoon)
